@@ -30,6 +30,7 @@ Information about the project's license.
 
 ## Filesystem
 
+```
 ..\SCOREBORD\DOCKER
 ├───server
 │   │   main.py
@@ -42,9 +43,10 @@ Information about the project's license.
 │           index.html
 │
 └───tests
+```
 
 ### server
-De pythoncode voor de server gaat in main.py.
+De pythoncode voor de server gaat in __main.py__
 
 ### HTML
 __Alle__ HTML code voor de main page gaat in __index.html__. Voor alle andere pagina's wordt er een nieuw bestand gemaakt in __\scorebord\docker\server\templates__. De naamgeving van dit bestand is simpelweg de functie van die bestand. 
