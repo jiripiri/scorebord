@@ -1,4 +1,6 @@
-# Project Name
+# Scorebord
+
+Jiri vult de rest wel aan.
 
 ## Description
 
@@ -22,7 +24,7 @@ Instructions on how to use the project.
 
 ## Contributing
 
-Guidelines on how to contribute to the project.
+I encourage you to use Issues and pull requests. This is much cleaner in the git logs, and easier to read for other people to help you out. ([youtube video](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)). Vscode also has a great extension to do this with a GUI ([youtube video](https://www.youtube.com/watch?v=-nfUgBLBTIo&t=103s)).
 
 ## License
 
