@@ -1,59 +1,73 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="../static/styles.css">
-        <style>
-        .hidden {
-            display: none;
-        }
-        </style>
-    </head>
-
-    <body>
-        <h1 style="color:DodgerBlue; font-family:verdana;">PIRATES</h1>
-        <h2 style="color:DodgerBlue;"><small>6</small></h2>
-        <h1 style="color:Tomato; font-family:courier; font-size:300%; text-align:right;">BULLS</h1>
-        <h2 style="color:Tomato; text-align:right;"><small>5</small></h2>
-
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg.png" alt="1"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(1).png" alt="2"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(2).png" alt="3"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(3).png" alt="4"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(4).png" alt="5"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(5).png" alt="6"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(6).png" alt="7"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(7).png" alt="8"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(8).png" alt="9"></div>
-
-        <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(9).png" alt="0"></div>
+<head>
+   <link rel="stylesheet" href="../static/styles.css">
+   <style>
+       .hidden {
+       display: none;
+       }
+       .flex-container-row {
+         display: flex;
+         flex-direction: row;
+         flex: 50%;
+       }
+       .flex-container-column {
+         display: flex;
+         flex-direction: column;
+         flex: 50%;
+       }
+    </style>
+</head>
+<div class="flex-container-row">
+<div class="flex-container-column">
+<div align-self: left;><h1 style="color:DodgerBlue; font-family:verdana;">PIRATES</h1></div>
+<div style="align-self: right"><h2 style="color:DodgerBlue;"><small>6</small></h2></div>
+</div>
+<div class="flex-container-column">
+<div align-self: right;><h1 style="color:Tomato; font-family:courier; font-size:300%; text-align:right;">BULLS</h1></div>
+<div style="align-self: left"><h2 style="color:Tomato; text-align:right;"><small>5</small></h2></div>
+</div>
+</div>
 
 
-        <button onclick="hideElements()">Hide Element</button>
-        <button onclick="showElements()">Show Elements</button>
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg.png" alt="1"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(1).png" alt="2"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(2).png" alt="3"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(3).png" alt="4"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(4).png" alt="5"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(5).png" alt="6"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(6).png" alt="7"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(7).png" alt="8"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(8).png" alt="9"></div>
+
+<div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(9).png" alt="0"></div>
 
 
-        <script>
-        function hideElements() {
-            let elements = document.getElementsByClassName("number");
-            for (let i = 0; i < elements.length; i++) {
-            elements[i].classList.add("hidden");
-            }
-        }
+<button onclick="hideElements()">Hide Element</button>
+<button onclick="showElements()">Show Elements</button>
 
-        function showElements() {
-            let elements = document.getElementsByClassName("number");
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].classList.remove("hidden");
-            }
-        }
-        </script>
-    </body>
+
+<script>
+   function hideElements() {
+      let elements = document.getElementsByClassName("number");
+      for (let i = 0; i < elements.length; i++) {
+      elements[i].classList.add("hidden");
+      }
+   }
+
+   function showElements() {
+      let elements = document.getElementsByClassName("number");
+      for (let i = 0; i < elements.length; i++) {
+         elements[i].classList.remove("hidden");
+      }
+   }
+</script>
+</body>
 </html>
