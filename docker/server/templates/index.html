@@ -16,6 +16,18 @@
          flex-direction: column;
          flex: 50%;
        }
+       .number {
+         position: absolute;
+       }
+       .button1 {
+         position: fixed;
+         bottom: 20px;
+       }
+       .button2 {
+         position: fixed;
+         bottom: 20px;
+         left: 100px;
+       }
     </style>
 </head>
 <div class="flex-container-row">
@@ -63,8 +75,8 @@
 <div class="number"><img src="c:\Users\ScheirsJiri\Downloads\pngegg(9).png" alt="0"></div>
 
 
-<button onclick="hideElements()">Hide Element</button>
-<button onclick="showElements()">Show Elements</button>
+<div class="button1"><button onclick="hideElements()">Hide Element</button></div>
+<div class="button2"><button onclick="showElements()">Show Element</button></div>
 
 
 <script>
