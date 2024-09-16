@@ -1,39 +1,28 @@
+<style>
 ._1 {
     display: none;
-}
+    }
+    .flex-container-row {
+      display: flex;
+      flex-direction: row;
+      flex: 50%;
 
-._2 {
-    display: none;
-}
-
-._3 {
-    display: none;
-}
-
-._4 {
-    display: none;
-}
-
-._5 {
-    display: none;
-}
-
-._6 {
-    display: none;
-}
-
-._7 {
-    display: none;
-}
-
-._8 {
-    display: none;
-}
-
-._9 {
-    display: none;
-}
-
-._10 {
-    display: none;
-}
+    }
+    .flex-container-column {
+      display: flex;
+      flex-direction: column;
+      flex: 50%;
+    }
+    .number {
+      position: absolute;
+    }
+    .button1 {
+      position: fixed;
+      bottom: 20px;
+    }
+    .button2 {
+      position: fixed;
+      bottom: 20px;
+      left: 50px;
+    }
+</style>
