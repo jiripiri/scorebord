@@ -4,12 +4,12 @@ const button2 = document.querySelector("#button2");
 
 let score = 0;
 
-button1.onclick = () => {
+button1.onclick = () =&gt; {
    score += 1;
-};
-button2.onclick = () => {
+&rbrace;;
+button2.onclick = () =&gt; {
    score -= 1;
-};
+&rbrace;;
 
 function scoreUp() {
    let elements = document.getElementById("number");
@@ -17,7 +17,7 @@ function scoreUp() {
    elements[i].classList.add("hidden");
    elements[score].classList.remove("hidden")
    
-}
+&rbrace;
 
 function scoreDown() {
    let elements = document.getElementsByClassName("number");
@@ -25,5 +25,5 @@ function scoreDown() {
    elements[i].classList.add("hidden");
    elements[score].classList.remove("hidden");
    
-}
+&rbrace;
 </script>
