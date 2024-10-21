@@ -1,10 +1,10 @@
 # Scorebord
 
-Jiri vult de rest wel aan.
+Een scorebord hé, ja
 
 ## Description
 
-A brief description of the project goes here.
+Een scorebord, bruikbaar voor de voetbalwedstrijd 5-6. Bij uitbreiding ook voor andere zaken
 
 ## Table of Contents
 
@@ -16,11 +16,11 @@ A brief description of the project goes here.
 
 ## Installation
 
-Instructions on how to install and set up the project.
+download de code en open het gwn met een browser
 
 ## Usage
 
-Instructions on how to use the project.
+na het te openen gebruik je gewoon de knoppen
 
 ## Contributing
 
